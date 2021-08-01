@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Roboto:wght@100;300;400;700;900&display=swap');
+font-style
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+      font-family: 'Montserrat', sans-serif;
+}
+.box{
+    background-color:gray ;
+	color: white;
+	width:650px;
+	padding: 80px 65px;
+	border-radius: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	box-shadow: 20px 20px 60px #cf392e,
+           
+}
+
+h1{
+	font-size: 45px;
+	font-weight: 900;
+}
+img{
+	
+	max-width: 100%;
+	border: 10px #fcd206 dashed;
+}
+
+.box p{
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+
+
+.container{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap:nowrap;
+}
+.product{
+	padding: 30px;
+	flex-basis: 33.33%;
+}
+.green{
+	background: #0bd148;
+}
+.yellow{
+	background: #fcd206;
+}
+
+h3{
+	font-size: 25px;
+}
+h3 strong{}
+h3 span{
+	font-weight: 300;
+	text-decoration: line-through;
+	font-style: italic;
+	font-size: 20px;
+}
+button{
+	background: #0db148;
+	color: white;
+	font-size: 20px;
+	padding: 12px 50px;
+	border: 2px solid #0bd148;
+	border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+   background: transparent;
+   color: green;
+}
+.product-box{
+	box-shadow: 0 0 50px #33333336;
+	padding: 30px;
+	border-radius: 10px;
+}
